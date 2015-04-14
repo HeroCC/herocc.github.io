@@ -11,3 +11,18 @@
   color: #ffffff;
   background-color: #171A21;
 }
+
+
+.btn-reddit {
+  color: #ffffff;
+  background-color: #ff5700;
+}
+
+.btn-reddit:hover,
+.btn-reddit:focus,
+.btn-reddit:active,
+.btn-reddit.active,
+.open .dropdown-toggle.btn-reddit {
+  color: #ffffff;
+  background-color: #ff4500;
+}
