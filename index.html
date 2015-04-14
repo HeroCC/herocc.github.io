@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>HeroCC</title>
-	<meta name="description=" content="HeroCC's Homepage! Contains links to popular profiles and projects of his">
+	<meta name="description" content="HeroCC's Homepage! Contains links to popular profiles and projects of his">
 	<!-- Ubuntu Google Fonts -->
 	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,400italic' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap -->
@@ -11,6 +11,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <!-- Custom Bootstrap CSS -->
   <link rel="stylesheet" href="css/custom_bootstrap.css" type="text/css">
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <!-- Animations JS -->
+  <script src="js/animations.js"></script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -34,14 +38,19 @@
 </head>
 
 <body>
-	<div class="center">
+	<div class="center" style="padding-bottom: 45px">
 		<div style="margin-top: 150px; font-size:100px; color: #3B5DF5; font-weight: 100">HeroCC</div>
 		<div class="btn-group" style="margin: 0;">
       <a class="btn btn-info" href="https://twitter.com/herocc_"> <i class="fa fa-twitter"></i> Twitter</a>
       <a class="btn btn-success" href="https://keybase.io/herocc"> <i class="fa fa-key"></i> Keybase</a>
       <a class="btn btn-danger" href="http://www.youtube.com/c/Herocc"> <i class="fa fa-video-camera"></i> YouTube</a>
-      <a class="btn btn-gray" href="https://steamcommunity.com/profiles/76561198078125364"> <i class="fa fa-steam"></i> Steam</a>
       <a class="btn btn-warning" href="https://github.com/HeroCC"> <i class="fa fa-github"></i> GitHub</a>
+      <a class="btn btn-default" id="toggle" data-name="show" value="Toggle"><i class="fa fa-ellipsis-h"></i> More</a>
+    </div>
+  </div>
+  <div class="center">
+    <div class="btn-group" id="more-btn">
+      <a class="btn btn-gray" href="https://steamcommunity.com/profiles/76561198078125364"> <i class="fa fa-steam"></i> Steam</a>
     </div>
   </div>
 </div>
