@@ -1,3 +1,4 @@
+$('html').addClass('js');
 $(document).ready(function() {
       // Hide the "view" div.
       $("#more-btn").hide();
