@@ -15,3 +15,5 @@ body {
 }
 
 .js #more-btn { display: none; }
+
+.js #noJS { display: none; }
