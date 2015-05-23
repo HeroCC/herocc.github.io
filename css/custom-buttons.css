@@ -27,3 +27,18 @@
   color: #ffffff;
   background-color: #ff4500;
 }
+
+/* Gratipay Button */
+.btn-gratipay {
+  color: #ffffff;
+  background-color: #339966;
+}
+
+.btn-gratipay:hover,
+.btn-gratipay:focus,
+.btn-gratipay:active,
+.btn-gratipay.active,
+.open .dropdown-toggle.btn-gratipay {
+  color: #ffffff;
+  background-color: #2D8A5C;
+}
