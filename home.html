@@ -35,10 +35,13 @@
   <link rel="stylesheet" href="css/main.css" type="text/css">
   <link rel="stylesheet" href="css/custom-buttons.css" type="text/css">
   <link rel="stylesheet" href="css/responsive.css" type="text/css">
+  <link rel="stylesheet" href="css/ss-trans.css" type="text/css">
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- Other JS -->
   <script src="js/animations.js"></script>
+  <script type="text/javascript" src="js/jquery.smoothState.min.js"></script>
+  <script type="text/javascript" src="js/ss-trans.js"></script>
 
 
   <style>
@@ -55,34 +58,38 @@
 </head>
 
 <body>
-  <div id="noJS" style="color: red;">
-    Warning: This page requires JavaScript to work properly!
-  </div>
-  <a transition="flip" href="contact.html"><img class="arrow" id="left" style="left: 0px;" src="img/left-arrow.png" alt="Left Page"></a>
-
-  <div class="center" style="padding-bottom: 45px;">
-    <img class="mepic" src="https://secure.gravatar.com/avatar/467697c96edf8bb12fd7ab8d84c14cbf?size=200&d=404" alt="Picture of Me" style="margin-top: 50px;" onError="this.onerror=null;this.src='img/me.png';">
-    <div class="name" style="font-size:100px; color: #3B5DF5; font-weight: 100;">HeroCC</div>
-    <div class="btn-group" style="margin: 0; font-family: 'Ubuntu', sans-serif;">
-      <a class="btn btn-info btn-responsive" href="https://twitter.com/herocc_"> <i class="fa fa-twitter"></i> Twitter</a>
-      <a class="btn btn-success btn-responsive" href="https://keybase.io/herocc"> <i class="fa fa-key"></i> Keybase</a>
-      <a class="btn btn-danger btn-responsive" href="https://youtube.com/c/Herocc"> <i class="fa fa-video-camera"></i> YouTube</a>
-      <a class="btn btn-warning btn-responsive" href="https://github.com/HeroCC"> <i class="fa fa-github"></i> GitHub</a>
-      <a class="btn btn-default btn-responsive" id="toggle" data-name="show" value="Toggle"><i class="fa fa-ellipsis-h"></i> More</a>
+  <div id="main" class="m-scene wrapper">
+    <div id="noJS" style="color: red;">
+      Warning: This page requires JavaScript to work properly!
     </div>
-  </div>
 
-  <div class="center" id="more-btn">
-    <div class="btn-group" data-gratipay-username="HeroCC" data-gratipay-widget="custom">
-      <a class="btn btn-gray btn-responsive" href="https://steamcommunity.com/profiles/76561198078125364"> <i class="fa fa-steam"></i> Steam</a>
-      <a class="btn btn-reddit btn-responsive" href="https://www.reddit.com/user/HeroCC"> <i class="fa fa-reddit"></i> Reddit</a>
-      <a class="btn btn-gratipay btn-responsive gratipay-profile-link"><i class="fa fa-gratipay">&nbsp;</i><span class="gratipay-receiving">Gratipay</a></span>
+    <div class="scene_element scene_element--fadein">
+      <a href="contact.html"> <img class="arrow" id="left" style="left: 0px;" src="img/left-arrow.png" alt="Left Page"> </a>
+      <div class="center " style="padding-bottom: 45px;">
+        <img class="mepic" src="https://secure.gravatar.com/avatar/467697c96edf8bb12fd7ab8d84c14cbf?size=200&d=404" alt="Picture of Me" style="margin-top: 50px;" onError="this.onerror=null;this.src='img/me.png';">
+        <div class="name" style="font-size:100px; color: #3B5DF5; font-weight: 100;">HeroCC</div>
+        <div class="btn-group" style="margin: 0; font-family: 'Ubuntu', sans-serif;">
+          <a class="btn btn-info btn-responsive" href="https://twitter.com/herocc_"> <i class="fa fa-twitter"></i> Twitter</a>
+          <a class="btn btn-success btn-responsive" href="https://keybase.io/herocc"> <i class="fa fa-key"></i> Keybase</a>
+          <a class="btn btn-danger btn-responsive" href="https://youtube.com/c/Herocc"> <i class="fa fa-video-camera"></i> YouTube</a>
+          <a class="btn btn-warning btn-responsive" href="https://github.com/HeroCC"> <i class="fa fa-github"></i> GitHub</a>
+          <a class="btn btn-default btn-responsive" id="toggle" data-name="show" value="Toggle"><i class="fa fa-ellipsis-h"></i> More</a>
+        </div>
+      </div>
+
+      <div class="center" id="more-btn">
+        <div class="btn-group" data-gratipay-username="HeroCC" data-gratipay-widget="custom">
+          <a class="btn btn-gray btn-responsive" href="https://steamcommunity.com/profiles/76561198078125364"> <i class="fa fa-steam"></i> Steam</a>
+          <a class="btn btn-reddit btn-responsive" href="https://www.reddit.com/user/HeroCC"> <i class="fa fa-reddit"></i> Reddit</a>
+          <a class="btn btn-gratipay btn-responsive gratipay-profile-link"><i class="fa fa-gratipay">&nbsp;</i><span class="gratipay-receiving">Gratipay</a></span>
+        </div>
+        <script src="https://grtp.co/v1.js" async> </script>
+      </div>
+
+      <div id="footer">
+        <a href="https://git.io/vI0Eg">Fork me on GitHub</a> | <a href="https://herocc.com">Home</a>
+      </div>
     </div>
-    <script src="https://grtp.co/v1.js" async></script>
-  </div>
-
-  <div id="footer">
-    <a href="https://git.io/vI0Eg">Fork me on GitHub</a> | <a href="https://herocc.com">Home</a>
   </div>
 </body>
 </html>
