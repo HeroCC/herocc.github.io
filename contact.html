@@ -11,12 +11,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <!-- Custom CSS -->
+  <!-- Other CSS -->
   <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/ss-trans.css" type="text/css">
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <!-- Animations JS -->
-  <script src="js/animations.js"></script>
+  <!-- Other JS -->
+  <script type="text/javascript" src="js/animations.js"></script>
+  <script type="text/javascript" src="js/jquery.smoothState.min.js"></script>
+  <script data-cfasync="false" type="text/javascript" src="js/ss-trans.js"></script>
 
   <style>
   /* Thanks hdwallsource.com/lovely-nature-wallpaper-40336.html for the Image!
@@ -35,9 +38,17 @@
 
 </head>
 <body>
-<a href="./index.html"> <img class="arrow" id="right" style="right: 0px;" src="img/right-arrow.png" alt="Right Page"> </a>
-  <div class="center">
-    <i class="fa fa-exclamation-triangle" style="font-size: 60px; color: orange;"> Coming Soon!</i>=
+  <div id="main" class="m-scene wrapper">
+    <div id="noJS" style="color: red;">
+      Warning: This page requires JavaScript to work properly!
+    </div>
+
+    <div class="scene_element scene_element--fadein">
+      <a href="./index.html"> <img class="arrow" id="right" style="right: 0px;" src="img/right-arrow.png" alt="Right Page"> </a>
+      <div class="center">
+        <i class="fa fa-exclamation-triangle" style="font-size: 60px; color: orange;"> Coming Soon!</i>=
+      </div>
+    </div>
   </div>
 </body>
 </html>
