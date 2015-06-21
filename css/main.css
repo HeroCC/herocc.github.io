@@ -1,6 +1,12 @@
 .center {
   margin: 0 auto;
   text-align: center;
+  
+}
+
+#warning {
+  color: orange;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .js #more-btn { display: none; }
