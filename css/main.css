@@ -55,3 +55,9 @@
   max-height: 7%;
   position: absolute;
 }
+
+i.fa-slack-rotate-19-degrees {
+    -ms-transform: rotate(19deg);
+    -webkit-transform: rotate(19deg);
+    transform: rotate(19deg);
+}

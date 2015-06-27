@@ -42,3 +42,18 @@
   color: #ffffff;
   background-color: #2D8A5C;
 }
+
+/* IRC Button */
+.btn-irc {
+  color: #ffffff;
+  background-color: #663399;
+}
+
+.btn-irc:hover,
+.btn-irc:focus,
+.btn-irc:active,
+.btn-irc.active,
+.open .dropdown-toggle.btn-irc {
+  color: #ffffff;
+  background-color: #5C2E8A;
+}
