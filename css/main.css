@@ -1,7 +1,15 @@
 .center {
   margin: 0 auto;
   text-align: center;
-  
+}
+
+#both-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
 #warning {
@@ -46,4 +54,10 @@
   max-width: 7%;
   max-height: 7%;
   position: absolute;
+}
+
+i.fa-slack-rotate-19-degrees {
+    -ms-transform: rotate(19deg);
+    -webkit-transform: rotate(19deg);
+    transform: rotate(19deg);
 }
