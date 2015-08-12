@@ -62,3 +62,17 @@ i.fa-slack-rotate-19-degrees {
     -webkit-transform: rotate(19deg);
     transform: rotate(19deg);
 }
+
+.name {
+  font-size:100px;
+  color: #3B5DF5;
+  line-height: 1;
+}
+
+.subtitle {
+  font-size:20px;
+  color: #00bfff;
+  padding-bottom: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+}
