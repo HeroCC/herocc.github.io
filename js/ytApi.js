@@ -22,5 +22,6 @@ ytGet.get(apiURL, function(response) {
   if ( isStreaming == 1 ) {
     document.getElementById("ytText").innerHTML = "Streaming!";
     document.getElementById("ytLink").title = "Live streaming right now on YouTube!";
+    document.getElementById("ytLink").href = 'https://youtube.com/watch?v=' + (ytResponse.items.id.videoId);
   }
 });
