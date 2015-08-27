@@ -15,3 +15,7 @@
     line-height: 1.2;
   }
 }
+
+.btn {
+  transition: 0.3s;
+}
