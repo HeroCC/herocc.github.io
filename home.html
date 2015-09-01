@@ -24,8 +24,10 @@
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- Other JS -->
+  <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/animations.js"></script>
   <script type="text/javascript" src="js/ytApi.js"></script>
+  <script type="text/javascript" src="js/grtpApi.js"></script>
   <script data-cfasync="false" type="text/javascript" src="js/jquery.smoothState.min.js"></script>
   <script data-cfasync="false" type="text/javascript" src="js/ss-trans.js"></script>
 
@@ -65,13 +67,12 @@
       </div>
 
       <div class="center" id="more-btn">
-        <div class="btn-group" data-gratipay-username="~HeroCC" data-gratipay-widget="custom">
+        <div class="btn-group">
           <a class="btn btn-gray" href="https://steamcommunity.com/profiles/76561198078125364" title="HeroCC on Steam"> <i class="fa fa-steam"></i> Steam</a>
           <a class="btn btn-reddit" href="https://www.reddit.com/user/HeroCC" title="HeroCC on Reddit"> <i class="fa fa-reddit"></i> Reddit</a>
           <a class="btn btn-irc" href="irc://irc.esper.net:6667/herocc" title="#herocc on EsperNet"> <i class="fa fa-slack fa-slack-rotate-19-degrees"></i> IRC</a>
-          <a class="btn btn-gratipay gratipay-profile-link" title="HeroCC on GratiPay"><i class="fa fa-gratipay">&nbsp;</i><span class="gratipay-receiving">Gratipay</a></span>
+          <a class="btn btn-gratipay" title="HeroCC on GratiPay"><i class="fa fa-gratipay">&nbsp;</i><span id="gratText">Gratipay</a></span>
         </div>
-        <script src="https://grtp.co/v1.js" async> </script>
       </div>
 
       <div id="footer">
