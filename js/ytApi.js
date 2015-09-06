@@ -10,5 +10,7 @@ ytGet.get(ytURL, function(response) {
     document.getElementById("ytText").innerHTML = "Streaming!";
     document.getElementById("ytLink").title = "Live streaming right now on YouTube!";
     document.getElementById("ytLink").href = 'https://youtube.com/watch?v=' + (ytResponse.items.id.videoId);
+    document.getElementById("ytLink").onmouseout = "hoverChanger(this, 'Streaming!')"
+    document.getElementById("ytLink").onmouseover = "hoverChanger(this, '/c/HeroCC live on YouTube!')"
   }
 });
