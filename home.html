@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Hey, you! Why are you looking at the source here? -->
 <!-- We have a GitHub page! https://git.io/vI0Eg -->
-<html>
+<html class="no-js">
 <head>
   <title>HeroCC</title>
   <!-- Favicons -->
@@ -26,23 +26,14 @@
   <!-- Other JS -->
   <script type="text/javascript" src="js/main.js"></script>
   <script type="text/javascript" src="js/animations.js"></script>
-  <script type="text/javascript" src="js/ytApi.js"></script>
-  <script type="text/javascript" src="js/grtpApi.js"></script>
+  <script type="text/javascript" src="js/apis.js"></script>
   <script data-cfasync="false" type="text/javascript" src="js/jquery.smoothState.min.js"></script>
   <script data-cfasync="false" type="text/javascript" src="js/ss-trans.js"></script>
 
+  <script type="text/javascript">
+    document.write("<style>body { background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + bkgImage + ") no-repeat center center fixed; }</style>");
+  </script>
 
-  <style>
-    body {
-     background:
-     linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-      ),
-     url(img/forest.jpg) no-repeat center center fixed;
-     background-size: cover;
-   }
- </style>
 </head>
 
 <body>
@@ -54,7 +45,7 @@
     <div class="scene_element scene_element--fadein">
       <!-- <a href="contact.html"> <img class="arrow" id="left" style="left: 0px;" src="img/left-arrow.png" alt="Left Page"> </a> -->
       <div class="center" style="padding-bottom: 45px;">
-        <img class="mepic" src="https://secure.gravatar.com/avatar/467697c96edf8bb12fd7ab8d84c14cbf?size=200&d=404" alt="Picture of Me" style="margin-top: 50px;" onError="this.onerror=null;this.src='img/me.png';">
+      <img class="mepic" src="https://secure.gravatar.com/avatar/467697c96edf8bb12fd7ab8d84c14cbf?size=200&d=404" alt="Picture of Me" style="margin-top: 50px;" onError="this.onerror=null;this.src='img/me.png';" height="200" width="200">
         <div class="name">HeroCC</div>
         <div class="subtitle">Student | Sysadmin | Gamer | Developer</div>
         <div class="btn-group" style="margin: 0; font-family: 'Ubuntu', sans-serif;">

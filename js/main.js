@@ -22,12 +22,12 @@ function getRandomImage(imgAr, path) { // http://www.dyn-web.com/code/basics/ran
   // var imgStr = '<img src="' + path + img + '" alt = "">';
   return fullImg;
 }
-var bkgImg = getRandomImage();
 
-//document.getElementById("headStyle").background = bkgImg;
-//document.head.style="linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + bkgImg + ") no-repeat center center fixed;";
-//document.getElementsByTagName("head")[0].style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + bkgImg + ") no-repeat center center fixed;";
-//document.getElementsByTagName("body")[0].setAttribute('style', "background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" + bkgImg + ") no-repeat center center fixed; background-size: cover;");
+var bkgImage=getRandomImage();
+alert(bkgImage);
 
 var docElement = document.documentElement, jsClassName = ["js"], classes = docElement.className.replace(/(^|\s)no-js(\s|$)/, "").split(" ").concat(jsClassName);
 docElement.className = classes.join(" ");
+
+//document.querySelector('head').style = 'background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' + getRandomImage + ') no-repeat center center fixed;';
+//document.getElementsByTagName("head")[0].appendChild('background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(' + getRandomImage() + ') no-repeat center center fixed;');

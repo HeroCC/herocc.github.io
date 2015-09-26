@@ -1,3 +1,13 @@
+.no-js body {
+ background:
+ linear-gradient(
+  rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)
+  ),
+ url(../img/bkg/forest.jpg) no-repeat center center fixed;
+ background-size: cover;
+}
+
 .center {
   margin: 0 auto;
   text-align: center;
@@ -58,9 +68,9 @@
 }
 
 i.fa-slack-rotate-19-degrees {
-    -ms-transform: rotate(19deg);
-    -webkit-transform: rotate(19deg);
-    transform: rotate(19deg);
+  -ms-transform: rotate(19deg);
+  -webkit-transform: rotate(19deg);
+  transform: rotate(19deg);
 }
 
 .name {
