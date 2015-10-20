@@ -9,3 +9,5 @@ vesper-forest.jpg: https://redd.it/3l642p
 sea-cave.jpg: http://is.gd/47zXy5
 panther-creek.jpg: https://redd.it/3n802a
 colorado-mtns.jpg: https://redd.it/3nkyxh
+LakeWanakaTree.jpg: https://redd.it/3p6ec9
+RainyYosemite.jpg: https://redd.it/3pbsg2

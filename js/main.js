@@ -14,7 +14,7 @@ var HttpClient = function() { // Thanks http://stackoverflow.com/a/22076667/1709
 
 // Gets random images from list of images and path
 // Used for random background images
-var bkg_images = ["forest.jpg", "mtns-lake-nature.jpg", "swamp-dusk.jpg", "yosemite.jpg", "china-natgeo-water-forest.jpg", "otago-nz-mtns.jpg", "italian-mtn.jpg", "vesper-forest.jpg", "sea-cave.jpg", "panther-creek.jpg", "colorado-mtns.jpg"];
+var bkg_images = ["forest.jpg", "mtns-lake-nature.jpg", "swamp-dusk.jpg", "yosemite.jpg", "china-natgeo-water-forest.jpg", "otago-nz-mtns.jpg", "italian-mtn.jpg", "vesper-forest.jpg", "sea-cave.jpg", "panther-creek.jpg", "colorado-mtns.jpg", "LakeWanakaTree.jpg", "RainyYosemite.jpg"];
 function getRandomImage(imgAr, path) { // http://www.dyn-web.com/code/basics/random_image/random_img_js.php
   path = path || 'img/bkg/'; // default path here
   imgAr = imgAr || bkg_images;
