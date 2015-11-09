@@ -57,3 +57,18 @@
   color: #ffffff;
   background-color: #5C2E8A;
 }
+
+/* StackExchange Button */
+.btn-stack {
+  color: #ffffff;
+  background-color: #5184C1;
+}
+
+.btn-stack:hover,
+.btn-stack:focus,
+.btn-stack:active,
+.btn-stack.active,
+.open .dropdown-toggle.btn-stack {
+  color: #ffffff;
+  background-color: #19549A;
+}
