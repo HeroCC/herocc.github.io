@@ -14,6 +14,7 @@ ytGet.get(ytURL, function(response) {
   }
 });
 
+/*
 // Gratipay
 gratUsername='HeroCC'
 var gratUrl='https://gratipay.com/~' + gratUsername + '/public.json';
@@ -25,3 +26,4 @@ gratGet.get(gratUrl, function(response) {
     document.getElementById("gratText").innerHTML = ('$' + receivingVal);
   }
 });
+*/
