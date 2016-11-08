@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Hey, you! Why are you looking at the source here? -->
 <!-- We have a GitHub page! https://git.io/vI0Eg -->
-<html class="no-js">
+<html class="no-js" lang="en">
 <head>
   <title>HeroCC</title>
   <!-- Favicons -->
@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="css/custom-buttons.css" type="text/css">
   <link rel="stylesheet" href="css/responsive.css" type="text/css">
   <link rel="stylesheet" href="css/ss-trans.css" type="text/css">
+  <link rel="stylesheet" href="css/snake.css" type="text/css">
+  <link rel="stylesheet" href=css/main-snake.css type=text/css>
   <!-- jQuery -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <!-- Other JS -->
@@ -30,6 +32,10 @@
   <script data-cfasync="false" type="text/javascript" src="js/jquery.smoothState.min.js"></script>
   <script data-cfasync="false" type="text/javascript" src="js/ss-trans.js"></script>
 
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-MVJ82D');</script>
+  <!-- End Google Tag Manager -->
+
   <script type="text/javascript">
     document.write("<style>body {background:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url("+getRandomImage()+") no-repeat center center fixed;background-size:cover;}</style>"); // Messy but it works
   </script>
@@ -37,15 +43,17 @@
 </head>
 
 <body>
+
   <div id="main" class="m-scene wrapper">
     <div id="noJS" style="color: red;">
       Warning: This page requires JavaScript to work properly!
     </div>
 
     <div class="scene_element scene_element--fadein">
+
       <!-- <a href="contact.html"> <img class="arrow" id="left" style="left: 0px;" src="img/left-arrow.png" alt="Left Page"> </a> -->
       <div class="center" style="padding-bottom: 45px;">
-      <img class="mepic" src="https://secure.gravatar.com/avatar/467697c96edf8bb12fd7ab8d84c14cbf?size=200&amp;d=404" alt="Picture of Me" style="margin-top: 50px;" onError="this.onerror=null;this.src='img/me.png';" height="200" width="200">
+        <img class="mepic" src="https://secure.gravatar.com/avatar/467697c96edf8bb12fd7ab8d84c14cbf?size=200&amp;d=404" alt="Picture of Me" style="margin-top: 50px;" onError="this.onerror=null;this.src='img/me.png';" height="200" width="200">
         <div class="name">HeroCC</div>
         <div class="subtitle">Student | Sysadmin | Gamer | Developer</div>
         <div class="btn-group" style="margin: 0; font-family: 'Ubuntu', sans-serif;">
@@ -66,6 +74,15 @@
           <!--<a class="btn btn-gratipay" href="https://gratipay.com/~HeroCC" title="HeroCC on GratiPay"><i class="fa fa-gratipay">&nbsp;</i><span id="gratText">Gratipay</a></span>-->
         </div>
       </div>
+
+      <!-- Not yet...
+      <div class="center">
+        <div class="projects">Projects</div>
+        <div class="btn-group">
+          <a class="btn btn-default" href="https://heroicraft.net" target="_blank" title="Gaming Community">HeroiCraft</a>
+        </div>
+      </div>
+      -->
 
       <div id="footer">
         <a href="https://herocc.com"><i class="fa fa-home">&nbsp;</i>Home</a> | <a href="https://blog.herocc.com"><i class="fa fa-rss">&nbsp;</i>Blog</a>
